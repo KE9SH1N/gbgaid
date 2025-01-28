@@ -15,14 +15,12 @@
 } */
 
 body {
-	/* color: var(--foreground);
-	background: var(--background); */
 	font-family: var(--font-work-sans), sans-serif;
 	font-family: var(--font-sacramento), cursive;
 }
 
 @layer utilities {
-	/* .text-balance {
-		text-wrap: balance;
-	} */
+	.responsive-text {
+		@apply text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl;
+	}
 }
