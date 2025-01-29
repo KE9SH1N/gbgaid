@@ -47,8 +47,8 @@ const config: Config = {
 				script: ["var(--font-sacramento)", "cursive"],
 			},
 			fontSize: {
-				xs: ["12px", "1.4"],
-				sm: ["14px", "1.6"],
+				xs: ["10px", "1.2"],
+				sm: ["14px", "1.4"],
 				base: ["16px", "1.6"], // 16px font size with a line height of 1.5 times the font size
 				lg: ["18px", "1.7"],
 				xl: ["20px", "1.8"],
