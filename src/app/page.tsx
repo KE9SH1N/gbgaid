@@ -1,10 +1,10 @@
 import GButton from "./componenets/common/GButton";
-import NavigationTop from "./componenets/header/NavigationTop";
+import NavigationBar from "./componenets/header/NavigationBar";
 
 export default function Home() {
 	return (
 		<main>
-			<NavigationTop />
+			<NavigationBar />
 			<h1 className=" font-worksans ct-responsive-text ">Hello World!</h1>
 			<GButton buttonText="Daniel" className="" />
 		</main>
