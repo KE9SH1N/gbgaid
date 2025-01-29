@@ -31,6 +31,9 @@ const config: Config = {
 				placeholderBg: "#f7f7f7",
 				utilColor: "#dc3545",
 			},
+			backgroundImage: {
+				"cta-background-image": "url('/images/brand/cta-bg.webp')",
+			},
 			willChange: {
 				transform: "transform",
 			},

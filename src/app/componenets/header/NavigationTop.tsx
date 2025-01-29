@@ -31,7 +31,7 @@ const NavigationTop = () => {
 						</Link>
 					</li>
 				</ul>
-				<ul className="ct-flex-end lg:w-[30%] gap-x-5">
+				<ul className="ct-flex-center lg:ct-flex-end lg:w-[30%] gap-x-5">
 					<h4 className=" capitalize text-sm">our social</h4>
 					<li className="ct-flex-center">
 						<Link href={"/"}>
