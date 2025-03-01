@@ -1,4 +1,6 @@
+import AboutConsulte from "./componenets/about/AboutConsulte";
 import GButton from "./componenets/common/GButton";
+import GSectionHead from "./componenets/common/GSectionHead";
 import NavigationBar from "./componenets/header/NavigationBar";
 import NavigationTop from "./componenets/header/NavigationTop";
 import HeroSlider from "./componenets/hero/HeroSlider";
@@ -11,6 +13,8 @@ export default function Home() {
 			<NavigationTop />
 			<HeroSlider />
 			<CallToAction />
+			<AboutConsulte />
+			<GSectionHead />
 		</main>
 	);
 }

@@ -30,7 +30,7 @@ const HeroSlider: React.FC = () => {
 			>
 				{[...Array(3)].map((_, index) => (
 					<SwiperSlide key={index}>
-						<div className="relative w-full h-[800px] flex items-center justify-center bg-cover bg-center bg-no-repeat">
+						<div className="relative w-full h-[900px] flex items-center justify-center bg-cover bg-center bg-no-repeat">
 							<div className=" absolute top-1/2 left-0 w-full z-40 -translate-y-1/2">
 								<section className="relative font-worksans px-6 md:px-12 lg:px-20 py-20">
 									<div className="max-w-[1100px] mx-auto flex flex-col lg:flex-row items-center">
