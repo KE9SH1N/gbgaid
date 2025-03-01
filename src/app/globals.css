@@ -140,7 +140,7 @@ body {
 }
 
 /* navigation slider  */
-.swiper-button-prev:after,
+/* .swiper-button-prev:after,
 .swiper-button-next:after {
 	font-size: 15px !important;
 	font-weight: 800;
@@ -160,10 +160,42 @@ body {
 	right: 5%;
 }
 
-.swiper-button-prev:after:hover {
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
 	background-color: #2c724f;
+} */
+
+/* navigation slider */
+.swiper-button-prev,
+.swiper-button-next {
+	font-size: 15px !important;
+	font-weight: 800;
+	padding: 25px 25px;
+	background-color: #cfd3d6;
+	transition: all 0.3s ease-in-out;
 }
 
-.swiper-button-next:after:hover {
+/* Adjust icon styles */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+	font-size: 15px !important;
+	font-weight: 800;
+	color: white;
+}
+
+/* Positioning */
+.swiper-button-prev {
+	position: absolute;
+	left: 5%;
+}
+
+.swiper-button-next {
+	position: absolute;
+	right: 5%;
+}
+
+/* Hover effect */
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
 	background-color: #2c724f;
 }

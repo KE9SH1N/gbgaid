@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const NavigationMenu = () => {
 	return (
-		<div className="bg-placeholderBg">
+		<div className="">
 			<div className="ct-container h-[100px] ct-items-center ct-flex-between">
 				<div className="ct-items-center gap-x-24">
 					<Image
