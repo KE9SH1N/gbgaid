@@ -1,4 +1,5 @@
 import AboutConsulte from "./componenets/about/AboutConsulte";
+import BrandServices from "./componenets/brand-services/BrandServices";
 import GButton from "./componenets/common/GButton";
 import GSectionHead from "./componenets/common/GSectionHead";
 import NavigationBar from "./componenets/header/NavigationBar";
@@ -14,7 +15,12 @@ export default function Home() {
 			<HeroSlider />
 			<CallToAction />
 			<AboutConsulte />
-			<GSectionHead />
+			<GSectionHead
+				title="Our Services"
+				subTitlePrimary="Best Solutions"
+				subTitleSecondary="For Your Business"
+			/>
+			<BrandServices />
 		</main>
 	);
 }
