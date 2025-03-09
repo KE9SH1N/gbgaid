@@ -5,6 +5,7 @@ import GSectionHead from "./componenets/common/GSectionHead";
 import NavigationBar from "./componenets/header/NavigationBar";
 import NavigationTop from "./componenets/header/NavigationTop";
 import HeroSlider from "./componenets/hero/HeroSlider";
+import LatestProjects from "./componenets/projects/LatestProjects";
 import CallToAction from "./componenets/util/CallToAction";
 
 export default function Home() {
@@ -15,12 +16,8 @@ export default function Home() {
 			<HeroSlider />
 			<CallToAction />
 			<AboutConsulte />
-			<GSectionHead
-				title="Our Services"
-				subTitlePrimary="Best Solutions"
-				subTitleSecondary="For Your Business"
-			/>
 			<BrandServices />
+			<LatestProjects />
 		</main>
 	);
 }

@@ -13,7 +13,7 @@ const GSectionHead: React.FC<GSectionHeadProps> = ({
 }) => {
 	return (
 		<div>
-			<div className="ct-container font-worksans px-6 my-12">
+			<div className="font-worksans my-12">
 				<p className="text-sm uppercase tracking-widest text-gray-500">
 					{title}
 				</p>

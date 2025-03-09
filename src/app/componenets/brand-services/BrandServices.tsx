@@ -17,6 +17,7 @@ import { TfiShield } from "react-icons/tfi";
 import { IoHomeOutline } from "react-icons/io5";
 import { BsCurrencyDollar } from "react-icons/bs";
 import { TiShoppingCart } from "react-icons/ti";
+import GSectionHead from "../common/GSectionHead";
 
 const data = [
 	{
@@ -87,6 +88,11 @@ const data = [
 const BrandServices = () => {
 	return (
 		<div className="ct-container mb-6">
+			<GSectionHead
+				title="Our Services"
+				subTitlePrimary="Best Solutions"
+				subTitleSecondary="For Your Business"
+			/>
 			<GServiceCard data={data} />
 		</div>
 	);

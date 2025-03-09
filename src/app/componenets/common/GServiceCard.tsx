@@ -10,11 +10,11 @@ interface GServiceCardProps {
 const GServiceCard: React.FC<GServiceCardProps> = ({ data }) => {
 	const IconComponent = data.icon;
 	return (
-		<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 font-worksans">
+		<div className="w-full grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 font-worksans">
 			{data.map((item: any) => (
 				<div
 					key={item.id}
-					className="relative max-w-xs p-6 py-12 border border-gray-200 hover:bg-[#b4f1d22c] smooth-animation hover:cursor-pointer"
+					className="relative w-full p-6 py-12 border border-gray-200 hover:bg-[#b4f1d22c] smooth-animation hover:cursor-pointer"
 				>
 					<span className="absolute inset-0 border-t-4 border-t-transparent hover:border-t-[#2c724f] transition-all duration-300"></span>
 					<div className="mb-4 text-[#2c724f] text-3xl">
