@@ -18,10 +18,10 @@ const GSectionHead: React.FC<GSectionHeadProps> = ({
 					{title}
 				</p>
 				<h2 className="text-3xl font-light text-black mt-6">
+					<span className=" text-[48px] ">{subTitlePrimary}</span>
 					<span className="font-bold text-[48px] text-brandPrimaryColor">
-						{subTitlePrimary}
+						&nbsp;{subTitleSecondary}
 					</span>
-					<span className="text-[48px]">&nbsp;{subTitleSecondary}</span>
 				</h2>
 			</div>
 		</div>
