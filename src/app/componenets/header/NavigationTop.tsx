@@ -1,8 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import { CiMail } from "react-icons/ci";
 import { FaFacebookF, FaInstagram, FaRegClock, FaRss } from "react-icons/fa";
-import { FaRegCirclePlay, FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 import { IoMdMail, IoMdPlayCircle } from "react-icons/io";
 import { IoCall } from "react-icons/io5";
 

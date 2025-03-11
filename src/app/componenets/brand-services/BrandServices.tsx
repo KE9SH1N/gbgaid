@@ -1,16 +1,5 @@
 import React from "react";
 import GServiceCard from "../common/GServiceCard";
-
-import {
-	PiChalkboardBold,
-	PiTrendUpBold,
-	PiShieldCheckBold,
-	PiHouseBold,
-	PiStampBold,
-	PiCurrencyDollarBold,
-	PiShoppingCartBold,
-	PiTruckBold,
-} from "react-icons/pi";
 import { LuTv } from "react-icons/lu";
 import { FaArrowTrendUp, FaStamp, FaTruckDroplet } from "react-icons/fa6";
 import { TfiShield } from "react-icons/tfi";
