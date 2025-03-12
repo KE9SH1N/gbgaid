@@ -1,17 +1,20 @@
 "use client";
 
+import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 import GInput from "../common/GInput";
 const FooterTop = () => {
 	return (
-		<footer className="bg-white py-12 font-worksans">
+		<div className="bg-white py-12 font-worksans">
 			<div className="ct-container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
 				{/* Company Info */}
 				<div>
 					<h2 className="text-3xl font-bold">
 						CONSUL<span className="text-gray-500 font-normal">TIX</span>
 					</h2>
-					<p className="text-sm text-gray-500 mt-4">CALL US DIRECTLY</p>
+					<p className="text-sm text-[#999999] mt-4 uppercase">
+						CALL US DIRECTLY
+					</p>
 					<p className="text-2xl text-[#000000] hover:text-[#0052e7] smooth-animation-mid mt-2 cursor-pointer">
 						+1 212-226-3126
 					</p>
@@ -22,12 +25,24 @@ const FooterTop = () => {
 				<div>
 					<h3 className="font-semibold text-xl mb-4">Company</h3>
 					<ul className="text-gray-500 text-sm space-y-2">
-						<li>About Us</li>
-						<li>Team</li>
-						<li>Careers</li>
-						<li>Investors</li>
-						<li>Contact Us</li>
-						<li>Offices</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">About Us</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Team</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Careers</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Investors</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Contact Us</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Offices</Link>
+						</li>
 					</ul>
 				</div>
 
@@ -35,10 +50,18 @@ const FooterTop = () => {
 				<div>
 					<h3 className="font-semibold text-xl mb-4">Quick Links</h3>
 					<ul className="text-gray-500 text-sm space-y-2">
-						<li>FAQs</li>
-						<li>Support</li>
-						<li>Sitemap</li>
-						<li>Community</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">FAQs</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Support</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Sitemap</Link>
+						</li>
+						<li className="hover:text-[#2c724f] smooth-animation-mid capitalize">
+							<Link href="">Community</Link>
+						</li>
 					</ul>
 				</div>
 
@@ -62,7 +85,7 @@ const FooterTop = () => {
 					</div>
 				</div>
 			</div>
-		</footer>
+		</div>
 	);
 };
 

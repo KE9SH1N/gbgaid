@@ -1,7 +1,6 @@
 import AboutConsulte from "./componenets/about/AboutConsulte";
 import BrandServices from "./componenets/brand-services/BrandServices";
-import FooterBottom from "./componenets/footer/FooterBottom";
-import FooterTop from "./componenets/footer/FooterTop";
+import Footer from "./componenets/footer/Footer";
 import NavigationTop from "./componenets/header/NavigationTop";
 import HeroSlider from "./componenets/hero/HeroSlider";
 import OurServices from "./componenets/our-services/OurServices";
@@ -21,8 +20,7 @@ export default function Home() {
 			<LatestProjects />
 			<Testimonials />
 			<OurServices />
-			<FooterTop />
-			<FooterBottom />
+			<Footer />
 		</main>
 	);
 }
