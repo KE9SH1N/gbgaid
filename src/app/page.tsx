@@ -1,4 +1,5 @@
 import AboutConsulte from "./componenets/about/AboutConsulte";
+import BrandList from "./componenets/brand-services/BrandList";
 import BrandServices from "./componenets/brand-services/BrandServices";
 import Footer from "./componenets/footer/Footer";
 import NavigationTop from "./componenets/header/NavigationTop";
@@ -20,6 +21,7 @@ export default function Home() {
 			<LatestProjects />
 			<Testimonials />
 			<OurServices />
+			<BrandList />
 			<Footer />
 		</main>
 	);
