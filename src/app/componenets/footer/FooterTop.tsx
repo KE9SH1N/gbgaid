@@ -5,7 +5,7 @@ import { FaArrowRight } from "react-icons/fa";
 import GInput from "../common/GInput";
 const FooterTop = () => {
 	return (
-		<div className="bg-white py-12 font-worksans">
+		<div className="bg-white py-12 font-worksans border-t border-gray-400">
 			<div className="ct-container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 px-6">
 				{/* Company Info */}
 				<div>

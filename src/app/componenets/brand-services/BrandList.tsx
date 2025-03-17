@@ -14,7 +14,7 @@ const logos = [
 ];
 const BrandList = () => {
 	return (
-		<div className="w-full py-5 ct-container font-worksans">
+		<div className="w-full ct-container font-worksans py-12">
 			<Swiper
 				modules={[Autoplay]}
 				spaceBetween={50}
