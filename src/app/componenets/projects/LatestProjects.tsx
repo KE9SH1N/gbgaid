@@ -2,6 +2,7 @@ import Link from "next/link";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import GSectionHead from "../common/GSectionHead";
 import Projects from "./Projects";
+import ProjectsForMobile from "./ProjectsForMobile";
 
 const LatestProjects = () => {
 	return (
@@ -23,7 +24,12 @@ const LatestProjects = () => {
 				</Link>
 			</div>
 
-			<Projects />
+			<div className="hidden lg:flex">
+				<Projects />
+			</div>
+			<div className="md:hidden">
+				<ProjectsForMobile />
+			</div>
 		</div>
 	);
 };
