@@ -13,13 +13,13 @@ const GSectionHead: React.FC<GSectionHeadProps> = ({
 }) => {
 	return (
 		<div>
-			<div className="font-worksans my-12">
+			<div className="font-worksans my-6 lg:my-12">
 				<p className="text-sm uppercase tracking-widest text-gray-500">
 					{title}
 				</p>
-				<h2 className="text-3xl font-light text-black mt-6">
-					<span className=" text-[48px] ">{subTitlePrimary}</span>
-					<span className="font-bold text-[48px] text-brandPrimaryColor">
+				<h2 className="text-3xl font-light text-black mt-3 lg:mt-6">
+					<span className="text-[32px] lg:text-[48px] ">{subTitlePrimary}</span>
+					<span className="font-bold text-[32px] lg:text-[48px] text-brandPrimaryColor">
 						&nbsp;{subTitleSecondary}
 					</span>
 				</h2>

@@ -1,11 +1,10 @@
 import Image from "next/image";
-import React from "react";
 
 const AboutConsulte = () => {
 	return (
 		<div className="ct-container border-b border-gray-500">
-			<div className="ct-flex-between my-24 relative">
-				<div className="w-[50%]">
+			<div className="ct-flex-start flex-col lg:flex-row lg:ct-flex-between my-6 lg:my-24 relative">
+				<div className="w-full lg:w-[50%]">
 					<Image
 						src={"/images/home-about.webp"}
 						alt="about consulte"
@@ -14,7 +13,7 @@ const AboutConsulte = () => {
 						className="object-cover"
 					/>
 				</div>
-				<section className="w-[50%]">
+				<section className="w-full lg:w-[50%]">
 					<div className="w-full font-worksans">
 						{/* Small Heading */}
 						<h3 className="text-sm uppercase tracking-widest text-gray-500">

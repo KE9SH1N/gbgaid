@@ -15,13 +15,13 @@ interface ServiceItemProps {
 
 const ServiceItem: React.FC<ServiceItemProps> = ({ serviceData }) => {
 	return (
-		<div className="ct-flex-start gap-x-5">
+		<div className="w-full ct-flex-start flex-col gap-y-5 lg:gap-x-5">
 			{serviceData.map((service) => (
 				<div
 					key={service?.id}
 					className="w-full font-worksans ct-flex-start flex-col"
 				>
-					<div className="relative min-w-[330px] h-[394px] overflow-hidden group rounded">
+					<div className="relative w-full lg:min-w-[330px] h-[500px] lg:h-[394px] overflow-hidden group rounded">
 						<Image
 							src={service?.image}
 							alt="team 1"
@@ -46,7 +46,7 @@ const ServiceItem: React.FC<ServiceItemProps> = ({ serviceData }) => {
 							</Link>
 						</div>
 					</div>
-					<div className="w-full mt-6">
+					<div className="w-full mt-6 text-center">
 						<h2 className="font-semibold text-2xl">{service?.name}</h2>
 						<p className="text-sm text-[#666666]">{service?.designation}</p>
 					</div>

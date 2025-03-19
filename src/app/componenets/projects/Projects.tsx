@@ -4,7 +4,7 @@ import { SlArrowRight } from "react-icons/sl";
 
 const Projects = () => {
 	return (
-		<div className="w-full ct-flex-start font-worksans gap-x-1 h-[750px]">
+		<div className="w-full ct-flex-start font-worksans gap-x-1 h-[750px] my-6">
 			<div className="w-[50%] ct-flex-start flex-col h-full gap-y-1">
 				<div className="ct-flex-start w-full h-[50%] gap-x-1">
 					<div className="w-[50%] h-full relative overflow-hidden group">

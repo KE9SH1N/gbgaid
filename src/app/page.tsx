@@ -7,6 +7,7 @@ import HeroSlider from "./componenets/hero/HeroSlider";
 import OurServices from "./componenets/our-services/OurServices";
 import LatestProjects from "./componenets/projects/LatestProjects";
 import Testimonials from "./componenets/testimonial/Testimonials";
+import TestimonialSlider from "./componenets/testimonial/TestimonialSlider";
 import CallToAction from "./componenets/util/CallToAction";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
 			<BrandServices />
 			<LatestProjects />
 			<Testimonials />
+			<TestimonialSlider />
 			<OurServices />
 			<BrandList />
 			<Footer />

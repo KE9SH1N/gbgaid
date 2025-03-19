@@ -5,8 +5,8 @@ import Services from "./Services";
 
 const OurServices = () => {
 	return (
-		<div className="w-full ct-container ct-flex-start flex-col">
-			<div className="w-full ct-flex-between justify-center">
+		<div className="w-full ct-container ct-flex-start flex-col my-5">
+			<div className="w-full ct-flex-start lg:ct-flex-between lg:justify-center flex-col">
 				<GSectionHead
 					title="our services"
 					subTitlePrimary="We Are"
@@ -23,7 +23,7 @@ const OurServices = () => {
 				</Link>
 			</div>
 
-			<div className="w-full mb-12">
+			<div className="w-full my-6">
 				<Services />
 			</div>
 		</div>

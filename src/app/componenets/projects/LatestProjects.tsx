@@ -1,14 +1,12 @@
-import React from "react";
-import GSectionHead from "../common/GSectionHead";
 import Link from "next/link";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import Image from "next/image";
+import GSectionHead from "../common/GSectionHead";
 import Projects from "./Projects";
 
 const LatestProjects = () => {
 	return (
 		<div>
-			<div className="w-full ct-container ct-flex-between justify-center">
+			<div className="w-full ct-container ct-flex-start flex-col lg:flex-row lg:ct-flex-between justify-center">
 				<GSectionHead
 					title="latest projects"
 					subTitlePrimary="See Our"
