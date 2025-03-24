@@ -15,7 +15,7 @@ interface ServiceItemProps {
 
 const ServiceItem: React.FC<ServiceItemProps> = ({ serviceData }) => {
 	return (
-		<div className="w-full ct-flex-start flex-col gap-y-5 lg:gap-x-5">
+		<div className="w-full ct-flex-start flex-col lg:flex-row gap-y-5 lg:gap-x-5">
 			{serviceData.map((service) => (
 				<div
 					key={service?.id}
